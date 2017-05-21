@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  stockimatic.stock:
+    image: stockimatic.stock
+    build:
+      context: ./Stockimatic.Stock
+      dockerfile: Dockerfile
